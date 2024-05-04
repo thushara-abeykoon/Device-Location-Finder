@@ -1,25 +1,43 @@
-HOW TO RUN DEVICE LOCATION MANAGER
+# Device Location Finder
 
-STEP 1.	Download and install NodeJS in your computer
+Device Location Finder is a web application for managing device locations. Follow the steps below to set it up on your computer.
 
-STEP 2.	Configure MongoDB in your computer
+## Prerequisites
 
-STEP 3.	Open MongoDBCompass or MongoDBShell and create new database called “deviceLocations”
+- [Node.js](https://nodejs.org/) installed on your computer.
+- [MongoDB](https://www.mongodb.com/) installed and configured.
 
-STEP 4.	Extract the project files
+## Installation and Setup
 
-STEP 5.	Go to the back end directory and open the terminal.
+1. **Download and Install Node.js**: 
+   - Download and install Node.js from [here](https://nodejs.org/).
+   
+2. **Configure MongoDB**:
+   - Install and configure MongoDB on your computer.
+   - Open MongoDBCompass or MongoDBShell and create a new database called "deviceLocations".
 
-STEP 6.	Run the command npm install
+3. **Download the Project Files**:
+   - Clone or download the project files from the repository.
 
-STEP 7.	Run the express back-end using npm run serve
+4. **Setup Backend**:
+   - Navigate to the backend directory in your terminal.
+   - Run the command `npm install` to install dependencies.
+   - Start the express backend using `npm run serve`.
 
-STEP 8.	Open another terminal in front end directory and open another terminal
+5. **Setup Frontend**:
+   - Open another terminal and navigate to the frontend directory.
+   - Run the command `npm install` to install dependencies.
+   - Start the front end using `npm run start`.
 
-STEP 9.	Run the command npm install
+6. **Access the Application**:
+   - Once both the backend and frontend are running, open your browser.
+   - Go to the URL [http://localhost:3000](http://localhost:3000) to access the application.
+   
+7. **Enjoy!**:
+   - You should now be able to use the Device Location Manager application.
 
-STEP 10.	Run the front end using npm run start command
+## Running the Application
 
-STEP 11.	Now the back end is running on localhost port 8080 and front end is running on localhost port 3000
+- The backend server runs on `localhost` port `8080`.
+- The frontend server runs on `localhost` port `3000`.
 
-STEP 12.	Open your browser and go to the url (http://localhost:3000) and enjoy.
